@@ -1,0 +1,95 @@
+.shoe-care__content {
+  padding: 0 0 50px 0;
+}
+
+.shoe-care__title {
+  font-size: 38px;
+  padding: 80px 5px 10px 30px;
+}
+
+.shoe-care__description {
+  color: #5e5e5e;
+  padding: 20px 10px 10px 30px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.shoe-care__info {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.shoe-care__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 0 0 30px;
+  list-style: none;
+}
+
+.shoe-care__item-title {
+  font-family: "Teko", sans-serif;
+  font-size: 22px;
+  color: #d5a353;
+  margin: 0 0 20px 0;
+}
+
+.shoe-care__item-description {
+  color: #5e5e5e;
+  font-size: 17px;
+  font-family: "PT Sans", sans-serif;
+  line-height: 1.7;
+  padding: 0 20px 0 0;
+}
+
+.shoe-care__promo-info {
+  background-image: url(/img/background2.png);
+  background-size: cover;
+  background-position: 70%;
+  background-repeat: no-repeat;
+  min-height: 700px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  background-attachment: fixed;
+}
+
+.shoe-care__promo-title{
+    font-family: "Teko",sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: bold ;
+    line-height: 1;
+    margin: 20px 0 0 0;
+}
+.shoe-care__promo-content{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    align-items: center;
+    padding: 20px 0 0 0;
+
+}
+.text-ui-brand-color{
+    font-size: 49px
+}
+
+.shoe-care__promo-contact{
+    font-size: 38px;
+    font-family: "Teko",sans-serif;
+    color: white;
+    font-weight: bold ;
+    line-height: 1;
+    margin: 10px 0 0 0;
+}
+
+.shoe-care__phone{
+    font-size: 38px;
+    font-family: "Teko",sans-serif;
+    color: #d5a353;
+    font-weight: bold ;
+    line-height: 1;
+    margin: 10px 0 0 0;
+}
+
+

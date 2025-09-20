@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@400;500;600;700&display=swap');
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color:rgb(211, 189, 189);
+    --ui-brand-color:#d5a353;
+    scroll-behavior: smooth;
+    font-family: "PT Sans", sans-serif;
+    color:var(--text-color);
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px; 
+    margin: auto;
+}
+h1{
+    font-family: "Teko",sans-serif;
+    width: 125px;
+    white-space: nowrap; 
+}
+h2{
+    font-family: "Teko",sans-serif;
+    color: #212121;
+    font-weight: 500;
+
+}
+
+.w-picture__image {
+    width: auto;
+    height: 35px; 
+    margin-left: 26px;
+}
