@@ -1,0 +1,120 @@
+.pricing__title_part{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.pricing__title{
+    padding-top: 80px;
+    font-size: 38px;
+}
+.pricing__w-picture__image {
+  width: 60px; 
+  height: 30px; 
+  margin: 0 auto; 
+  background-size: cover;
+  background-position: center;
+}
+.pricing__description{
+      color: #5e5e5e;
+  font-size: 20px;
+  padding: 23px;
+  
+
+}
+
+.pricing__cards{
+    display: flex;
+    flex-direction: column;
+    gap:30px
+}
+.pricing__card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    background-color: #F9F6F2;
+    margin: 23px;
+}
+.pricing__card-list{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-items: center;
+    justify-items: center;
+}
+
+.pricing__buttons_btn2{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "PT Sans", sans-serif;
+  color: #d5a353;
+  font-size: 15px;
+  background-color: none;
+  width: 130px;
+  height: 50px;
+  font-weight: bold;
+  margin: 60px 0 40px 10px;
+  border-color: #d5a353;
+  border-width: 2px;
+  border-style: solid;
+
+}
+.pricing__card-title{
+    font-size: 30px;
+    font-family: "Teko",sans-serif;
+    color:#212121;
+    font-weight: 500;
+    padding-top:20px ;
+}
+
+.pricing__card-price{
+    font-family: "Teko", sans-serif;
+    color: #d5a353;
+    font-size: 38px;
+        font-weight: 500;
+}
+.pricing__card-list li {
+  line-height: 1.5;
+}
+.pricing__card-item{
+    font-size: 13px;
+    color:#d5a353;
+}
+.pricing__card-item .pricing__card-text{
+    font-size: 17px;
+    color: #5e5e5e;
+}
+.card2{
+    background-color: #d5a353;
+}
+.card2 h3{
+    color: white;
+}
+.card2 p{
+    color: white;
+}
+.card2 li{
+    color: white;
+}
+.btn2_second{
+    border-color: white;
+    color:white;
+}
+
+.pricing__svg_box{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__svg1{
+    width: 40px;
+    height: 40px;
+    color: black;
+}
