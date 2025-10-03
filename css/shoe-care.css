@@ -92,4 +92,39 @@
     margin: 10px 0 0 0;
 }
 
+.shoe-care__content {
+  display: flex;
+  flex-direction: column; /* за замовчуванням на мобілках йде вертикально */
+  padding: 0 0 50px 0;
+}
+
+.shoe-care__image-wrapper,
+.shoe-care__info {
+  flex: 1;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .shoe-care__content {
+    flex-direction: row; /* на десктопі у два стовпці */
+    align-items: center;
+  }
+
+  .shoe-care__image-wrapper,
+  .shoe-care__info {
+    max-width: 50%; /* рівно по половині */
+  }
+  .shoe-care__image{
+        display: cover;
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        object-position: center;
+  }
+  .shoe-care__title{
+      font-size: 28px;
+      padding: 10px 5px 10px 30px;
+  }
+}
+
 

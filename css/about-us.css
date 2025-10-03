@@ -46,6 +46,14 @@
   height: 50px;
   font-weight: bold;
   margin: 10px 0 0 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+.about__buttons_btn1:hover,
+.about__buttons_btn2:hover {
+  background-color: #bdbdbd;
+  color: #212121;
 }
 
 .about__buttons_btn2 {
@@ -79,4 +87,25 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+@media (min-width: 768px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+
+  .about__content,
+  .about__image-wrapper {
+    flex: 1;           /* обидва ділять простір порівну */
+    max-width: 50%;    /* обмеження, щоб не розтягувались */
+  }
+
+  .about__buttons {
+    flex-direction: row;
+    gap: 20px;
+  }
 }

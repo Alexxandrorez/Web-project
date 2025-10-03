@@ -35,6 +35,7 @@
     justify-items: center;
     background-color: #F9F6F2;
     margin: 23px;
+         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
 }
 .pricing__card-list{
     display: flex;
@@ -59,7 +60,14 @@
   border-color: #d5a353;
   border-width: 2px;
   border-style: solid;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
 
+.pricing__buttons_btn2:hover {
+    background-color: #bdbdbd;
+    color: #212121;
+}
 }
 .pricing__card-title{
     font-size: 30px;
@@ -117,4 +125,21 @@
     width: 40px;
     height: 40px;
     color: black;
+}
+.crds{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+}
+
+@media (min-width: 768px) {
+    .pricing__cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 30px;
+    }
+    .crds{
+        min-width: 350px;
+    }
 }
