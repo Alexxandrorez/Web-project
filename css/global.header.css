@@ -113,30 +113,36 @@
 @media (min-width: 768px) {
   .header__title{
     font-size: 125px;
-    padding:250px 20px 0 750px;
+    padding:250px 20px 0 250px;
     
   }
   .header__contacts{
+    position: absolute;
+    left: 350px;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    right:50px; 
     margin-right:-50px;
    
   }
   .header__text{
-    padding-left: 750px;
+    padding-left: 250px;
     padding-top: 20px;
     font-size: 22px;
   }
   .header__btn1,
   .header__btn2 {
-    margin-left: 450px;
+    margin-left: 250px;
+
   }
   .header__actions{
     flex-direction: row;
     gap: 20px;
   }
 
+  .w-picture__imageh{
+  margin-left: 240px;
+
+}
 }
   

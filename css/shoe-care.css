@@ -1,6 +1,4 @@
-.shoe-care__content {
-  padding: 0 0 50px 0;
-}
+
 
 .shoe-care__title {
   font-size: 38px;
@@ -52,6 +50,8 @@
   padding: 40px 30px;
   box-sizing: border-box;
   background-attachment: fixed;
+  box-shadow: 0 -10px 10px rgba(0,0,0,0.4);
+
 }
 
 .shoe-care__promo-title{
@@ -108,6 +108,8 @@
   .shoe-care__content {
     flex-direction: row; /* на десктопі у два стовпці */
     align-items: center;
+    padding: 0;
+    
   }
 
   .shoe-care__image-wrapper,
